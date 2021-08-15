@@ -1,0 +1,13 @@
+ipython
+numpy
+jupyter
+jupyterlab
+matplotlib
+pyqt5
+scipy
+seaborn
+casadi
+sklearn
+torch
+highway-env
+torchinfo
