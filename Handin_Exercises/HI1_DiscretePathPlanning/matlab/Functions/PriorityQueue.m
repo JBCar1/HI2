@@ -7,7 +7,7 @@ classdef PriorityQueue < handle
   end
 
   methods (Access = public)
-      function obj = PriorityQueue( flagMaxPriorityQueue )
+      function obj = PriorityQueue(flagMaxPriorityQueue)
         % Create an empty priority queue
         %
         % Priority queue implementation borrowed from 
@@ -26,15 +26,15 @@ classdef PriorityQueue < handle
         obj.valueList = {};
       end
 
-      function insert(obj, priority, value)
+      function insert(obj, value, priority)
         % INSERT an element in the queue
         %
-        % obj.INSERT(priority, value)
+        % obj.INSERT(value, priority)
         %
         % Example: 
         %   q = PriorityQueue()
-        %   q.insert(10, 'a')
-        %   q.insert(5, 'b')
+        %   q.insert('a', 10)
+        %   q.insert('b', 5)
         
         % increase the size of the array if full
         if obj.numElements > 0 && obj.numElements + 1 > numel( obj.priorityList )                                
@@ -50,16 +50,16 @@ classdef PriorityQueue < handle
         obj.swim(obj.numElements);
       end
 
-      function [priority, value] = pop(obj)
+      function [value, priority] = pop(obj)
         % POP the element with lowest priority from the queue
         %
-        % [priority, value] = obj.POP()
+        % [value, priority] = obj.POP()
         %
         % Example: 
         %   q = PriorityQueue()
         %   q.insert(10, 'a')
         %   q.insert(5, 'b')
-        %   [prio, x] = q.pop();
+        %   [x, prio] = q.pop();
         if obj.isempty()
           error( 'called pop() on an empty priority queue' );
         end          
@@ -102,10 +102,10 @@ classdef PriorityQueue < handle
         qSize = obj.numElements;
       end
 
-      function [priority, value] = peek(obj)
+      function [value, priority] = peek(obj)
         % PEEK Peek into the queue without removing element
         %
-        % [priority, value] = obj.PEEK()
+        % [value, priority] = obj.peek()
         %
         % Example: 
         %   q = PriorityQueue()

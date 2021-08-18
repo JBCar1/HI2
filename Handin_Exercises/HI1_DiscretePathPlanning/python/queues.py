@@ -44,17 +44,17 @@ class LIFO(FIFO):
 class PriorityQueue(FIFO):
     """Priority queue."""
 
-    def insert(self, priority, x):
+    def insert(self, x, priority):
         """Insert prioritized object into queue.
 
-        obj.insert(priority, x) - Insert object x with priority priority.
+        obj.insert(x, priority) - Insert object x with priority priority.
         """
         heapq.heappush(self.q, (priority, x))
 
-    def update_key(self, priority, x):
+    def update_key(self, x, priority):
         """Update priority of key already in queue.
 
-        obj.update_key(priority, x) - Update priority of object x to new priority priority.
+        obj.update_key(x, priority) - Update priority of object x to new priority priority.
         """
         self.q = [(prio, key) if key != x else (priority, x) for (prio, key) in self.q]
         heapq.heapify(self.q)
@@ -62,9 +62,16 @@ class PriorityQueue(FIFO):
     def pop(self):
         """Pop value from queue with lowest priority.
 
-        Returns pair (priority, object)
+        Returns pair (object, priority)
         """
-        return heapq.heappop(self.q)
+        q = heapq.heappop(self.q)
+        return q[1], q[0]
+
+    def peek(self):
+        """Peek into queue."""
+        q = self.q[0]
+        return q[1], q[0]
+
 
     def ismember(self, x):
         return x in [key for _, key in self.q]
