@@ -2,7 +2,7 @@
 
 This repository includes lecture notes, material for hand-in exercises, links to reading material, and other course material. Information here will be added during the course and you can always get the latest version of course material here.
 
-## Lecture 1: Introduction [[slides](Lecture_notes/lecture_1_introduction.pdf)]
+## Lecture 1 (2020): Introduction [[slides](Lecture_notes/lecture_1_introduction.pdf)]
 
 ### Video
 
@@ -20,7 +20,7 @@ Recommended reading material for the introductory lecture are
 * SAE, "[_Taxonomy and Definitions for Terms Related to Driving Automation Systems for On-Road Motor Vehicles_](https://login.e.bibl.liu.se/login?url=https://saemobilus.sae.org/content/J3016_201806/)", Standard J3016.
 * Recommends an interesting discussion on [_The Artificial Intelligence podcast_](https://lexfridman.com/ai/) with Sertac Karaman https://lexfridman.com/sertac-karaman/ on autonomous driving and flying. Sertac Karaman is also author of course litterature in lecture 4.
 
-## Lecture 2: Discrete motion planning [[slides](Lecture_notes/lecture_2_discrete_motion_planning.pdf)]
+## Lecture 2 (2020): Discrete motion planning [[slides](Lecture_notes/lecture_2_discrete_motion_planning.pdf)]
 
 ### Video
 
@@ -38,7 +38,7 @@ For the interested reader, suggested material to dig deeper is
 https://web.mit.edu/dimitrib/www/RL_1-SHORT-INTERNET-POSTED.pdf
 * Chen, Mo, et al. "[_Priority queues and Dijkstra's algorithm_](https://www.researchgate.net/profile/Vijaya_Ramachandran/publication/250152101_Priority_Queues_and_Dijkstra's_Algorithm/links/54170a0a0cf2218008bec462.pdf)". Computer Science Department, University of Texas at Austin, 2007. 
 
-## Lecture 3: Modelling of ground vehicles [[slides](Lecture_notes/lecture3_ground_vehicles.pdf)]
+## Lecture 3 (2020): Modelling of ground vehicles [[slides](Lecture_notes/lecture3_ground_vehicles.pdf)]
 
 ### Video
 1. [_Mathematical modelling_](https://web.microsoftstream.com/video/832e4af2-a25c-4186-9cef-a5b44e4e6b96) [6:33]
@@ -48,7 +48,7 @@ https://web.mit.edu/dimitrib/www/RL_1-SHORT-INTERNET-POSTED.pdf
 ### Reading material
 * Sections 13.1 and 15.3-15-4 in LaValle, S. M.: [_Planning Algorithms_](http://planning.cs.uiuc.edu). Cambridge University Press, 2006.
 
-## Lecture 4: Motion planning with differential constraints [[slides](Lecture_notes/lecture_4_motion_planning_with_diff_constraints.pdf)]
+## Lecture 4 (2020): Motion planning with differential constraints [[slides](Lecture_notes/lecture_4_motion_planning_with_diff_constraints.pdf)]
 
 ### Video
 
@@ -67,7 +67,7 @@ Additional material for further reading:
 * Dahl, O.: ”[_Path Constrained Robot Control_](https://lucris.lub.lu.se/ws/files/4364453/8566341.pdf)”, Ph.D. Thesis, Dept. Automatic Control, Lund Univ., 1992.
 * Ljungqvist, O.: ”[_Motion planning and feedback control techniques with applications to long tractor-trailer vehicles_](http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-165246)”, Ph.D. Thesis, Div. Automatic Control, Linköping Univ., 2020. 
 
-## Lecture 5: Dynamic optimization as a tool for motion planning and control [[slides](Lecture_notes/lecture_5_dynamic_optimization_motion_planning_control.pdf)]
+## Lecture 5 (2020): Dynamic optimization as a tool for motion planning and control [[slides](Lecture_notes/lecture_5_dynamic_optimization_motion_planning_control.pdf)]
 
 ### Video
 
@@ -89,7 +89,8 @@ Additional material for further reading:
 * Bergman, K.: ”[_On Motion Planning Using Numerical Optimal Control_](https://doi.org/10.3384/lic.diva-157077)”, Licentiate Thesis, Div. Automatic Control, Linköping Univ., 2019.
 * Nocedal, J., & S. Wright: [_Numerical Optimization_](https://link.springer.com/book/10.1007%2F978-0-387-40065-5). Springer, 2006.
 
-## Lecture 6: Control of autonomous vehicles I: Ground vehicles [[slides](Lecture_notes/lecture_6_ground_vehicle_motion_control.pdf)]
+## Lecture 6 (2020): Control of autonomous vehicles I: Ground vehicles [[slides](Lecture_notes/lecture_6_ground_vehicle_motion_control.pdf)]
+
 ### Video
 
 1. [_Introduction to paths and trajectories_](https://web.microsoftstream.com/video/901528e0-8d80-44ae-8ead-be358ee9c409) [19:35]
@@ -115,7 +116,7 @@ For the interested reader, suggested material to dig deeper is
 * Werling, M., Gröll, L., and Bretthauer, G.. "[_Invariant trajectory tracking with a full-size autonomous road vehicle_](https://doi.org/10.1109/TRO.2010.2052325)". IEEE Transactions on Robotics 26.4 (2010): 758-765. 
     An advanced text, nonlinear trajectory stabilizing controllers.
 
-## Lecture 7: Model predictive control for autonomous vehicles [[slides](Lecture_notes/lecture_7_model_predictive_control_for_autonomous_vehicles.pdf)]
+## Lecture 7 (2020): Model predictive control for autonomous vehicles [[slides](Lecture_notes/lecture_7_model_predictive_control_for_autonomous_vehicles.pdf)]
 ### Video
 
 1. [_Lecture 7a: Introduction to model predictive control for autonomous vehicles_](https://web.microsoftstream.com/video/de248705-1dc8-46bf-8b61-27ddc781d504) [12:26]
@@ -123,7 +124,7 @@ For the interested reader, suggested material to dig deeper is
 3. [_Lecture 7c: Autonomous trajectory tracking and path following using MPC_](https://web.microsoftstream.com/video/dfbd498f-8384-4b19-b11d-b38f970b9b16) [26:24]
 4. [_Lecture 7d: Summary, outlook, and tools for MPC in autonomous vehicles_](https://web.microsoftstream.com/video/fb92a8d0-9503-44b6-b78d-70d75a345f2e) [09:48]
 
-### Reading material
+### Reading material (2020)
 * Chapter 1 in Rawlings, J. B., D. Q. Mayne, & M. Diehl: [_Model Predictive Control: Theory, Computation, and Design_](https://sites.engineering.ucsb.edu/~jbraw/mpc/). Nob Hill Publishing, 2017
 * Section V-C in Paden, B., et al.: "[_A survey of motion planning and control techniques for self-driving urban vehicles_](https://doi.org/10.1109/TIV.2016.2578706)". IEEE Transactions on Intelligent Vehicles, 1(1), 33-55, 2016.
 
@@ -132,7 +133,7 @@ Additional material for further reading:
 * Diehl, M., Bock, H. G., & Schlöder, J. P: ”[_A real-time iteration scheme for nonlinear optimization in optimal feedback control_](https://doi.org/10.1137/S0363012902400713)”. SIAM Journal on Control and Optimization, 43(5), 1714-1736, 2005.
 
 
-## Lecture 8: Collaborative control [[slides](Lecture_notes/lecture_8.pdf)]
+## Lecture 8 (2020): Collaborative control [[slides](Lecture_notes/lecture_8.pdf)]
 
 ### Video
 1. [_Introduction to Collaborative Control_](https://web.microsoftstream.com/video/4c1bf4f3-6908-4de8-92b1-9a9d140a618e) [10:45]
@@ -147,8 +148,9 @@ The methods described in the lecture can be found in:
 * Oh, K. K., Park, M. C., & Ahn, H. S.: "[_A survey of multi-agent formation control_](https://doi.org/10.1016/j.automatica.2014.10.022)". Automatica, 53, 424-440, 2015.
 
 
-## Lecture 9: Control of autonomous vehicles II [[slides](Lecture_notes/lecture_9.pdf)]
- ### Video
+## Lecture 9 (2020): Control of autonomous vehicles II [[slides](Lecture_notes/lecture_9.pdf)]
+
+### Video
  
  1. [_Closed Loop RRT_](https://web.microsoftstream.com/video/19e72f80-3a5c-408f-87db-2b2ac5b5c171) [15:14]
 
@@ -157,7 +159,7 @@ Main text is
 * Kuwata, Y., Teo, J., Fiore, G., Karaman, S., Frazzoli, E., & How, J. P.: "[_Real-Time Motion Planning With Applications to Autonomous Urban Driving_](https://doi.org/10.1109/TCST.2008.2012116)". IEEE Transactions on Control Systems Technology, 17(5), 1105-1118, 2009.
 
 
-## Lecture 10-11: Learning for autonomous vehicles [[slides-intro](Lecture_notes/lecture_10_learning_intro.pdf), [slides](Lecture_notes/lecture_10_11_learning_methods.pdf)]
+## Lecture 10-11 (2020): Learning for autonomous vehicles [[slides-intro](Lecture_notes/lecture_10_learning_intro.pdf), [slides](Lecture_notes/lecture_10_11_learning_methods.pdf)]
 ### Video
 
 1. [_Introduction to learning for autonomous systems_](https://web.microsoftstream.com/video/393a9866-d1b4-47df-bef4-f11608c6c43f) [27:24]
