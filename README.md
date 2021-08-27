@@ -1,6 +1,8 @@
 # TSFS12: Autonomous vehicles – planning, control, and learning systems
 
-This repository includes lecture notes, material for hand-in exercises, links to reading material, and other course material. Information here will be added during the course and you can always get the latest version of course material here.
+This repository includes lecture notes, material for hand-in exercises, links to reading material, and other course material. Information here will be added during the course and you can always get the latest version of course material here. 
+
+Note: (2020) by the lecture indicates that the material is from the 2020 edition and may be updated during the course.
 
 ## Lecture 1 (2020): Introduction [[slides](Lecture_notes/lecture_1_introduction.pdf)]
 
