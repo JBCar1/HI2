@@ -198,7 +198,6 @@ for k in range(nbr_iters):
 # Visualize the value function and policy after all iterations
 
 plot_value_and_policy(V, Pi, params)
-plt.show()
 
 
 # Compute average of reward for N episodes for smoothing
@@ -216,9 +215,5 @@ plt.figure(3, clear=True)
 plt.plot(mean_sum_r[N:], lw=0.5)
 plt.title(f'Sum of rewards for each episode (average over {N})')
 despine()
-plt.show()
-
-
-
 
 plt.show()
