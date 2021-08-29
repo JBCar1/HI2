@@ -216,7 +216,7 @@ print(f"Finished episode with total reward {tot_reward:.1f}")
 
 # This exercise evaluates how the value faunction $V(s)$ connects to the action-value functio $Q(s, a)$ in a scenario.
 
-# seed = np.random.randint(0, 1000)
+seed = np.random.randint(0, 1000)
 env.seed(seed)
 s = env.reset()
 done = False
