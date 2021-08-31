@@ -1,5 +1,5 @@
 # Python installation instructions
-The python versions of the handins require a fairly recent Python installation (>=3.7 should be fine).
+The python versions of the handins require a fairly recent Python installation (>=3.8 should be fine).
 
 In the student labs, there is a pre-prepared virtual environment with all necessary packages installed. You activate the virtual environment as
 ```
