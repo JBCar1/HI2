@@ -73,7 +73,7 @@ f_next = @(x) map_state_update(x, osm_map.distancematrix);
 %% Plan using the pre-defined depth first planner
 df_plan = depth_first(num_nodes, mission, f_next);
 fprintf('Plan: %.1f m, %d visited nodes, planning time %.1f msek\n', ...
-    df_plan.length, df_plan.num_visited_nodes, df_plan.time*1000);
+    df_plan.length, df_plan.num_expanded_nodes, df_plan.time*1000);
 
 % Plot the resulting plan
 figure(40)
@@ -87,7 +87,7 @@ legend(sprintf('%s (%.1f m)', df_plan.name, df_plan.length));
 figure(41)
 osm_map.plotmap()
 hold on
-osm_map.plotplan(df_plan.visited_nodes, 'b.');
+osm_map.plotplan(df_plan.expanded_nodes, 'b.');
 hold off
 legend(sprintf('%s (%.1f m)', df_plan.name, df_plan.length));
 
