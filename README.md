@@ -46,7 +46,7 @@ For the interested reader, suggested material to dig deeper is
 https://web.mit.edu/dimitrib/www/RL_1-SHORT-INTERNET-POSTED.pdf
 * Chen, Mo, et al. "[_Priority queues and Dijkstra's algorithm_](https://www.researchgate.net/profile/Vijaya_Ramachandran/publication/250152101_Priority_Queues_and_Dijkstra's_Algorithm/links/54170a0a0cf2218008bec462.pdf)". Computer Science Department, University of Texas at Austin, 2007. 
 
-## Lecture 3 (2020): Modelling of ground vehicles [[slides](Lecture_notes/lecture_03_ground_vehicles.pdf)]
+## Lecture 3: Modelling of ground vehicles [[slides](Lecture_notes/lecture_03_ground_vehicles.pdf)]
 
 ### Video
 1. [_Mathematical modelling_](https://web.microsoftstream.com/video/832e4af2-a25c-4186-9cef-a5b44e4e6b96) [6:33]
