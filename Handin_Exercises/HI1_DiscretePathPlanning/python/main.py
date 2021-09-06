@@ -234,7 +234,7 @@ def best_first(num_nodes, mission, f_next, heuristic=None, num_controls=0):
 
 # # Define heuristic for Astar and BestFirst planners
 
-# Define the heuristic for Astar and BestFirst. The ```LatLongDistance``` function will be useful.
+# Define the heuristic for Astar and BestFirst. The ```latlong_distance``` function will be useful.
 
 def cost_to_go(x, xg):
     p_x = osm_map.nodeposition[x]
