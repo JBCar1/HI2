@@ -1,4 +1,4 @@
-# TSFS12: Autonomous vehicles – planning, control, and learning systems
+# TSFS12: Autonomous Vehicles – Planning, Control, and Learning Systems
 
 This repository includes lecture notes, material for hand-in exercises, links to reading material, and other course material. Information here will be added during the course and you can always get the latest version of course material here. 
 
@@ -56,7 +56,7 @@ https://web.mit.edu/dimitrib/www/RL_1-SHORT-INTERNET-POSTED.pdf
 ### Reading material
 * Sections 13.1 and 15.3-15-4 in LaValle, S. M.: [_Planning Algorithms_](http://planning.cs.uiuc.edu). Cambridge University Press, 2006.
 
-## Lecture 4 (2020): Motion planning with differential constraints [[slides](Lecture_notes/lecture_04_motion_planning_with_diff_constraints.pdf)]
+## Lecture 4: Motion planning with differential constraints [[slides](Lecture_notes/lecture_04_motion_planning_with_diff_constraints.pdf)]
 
 ### Video
 
@@ -66,14 +66,15 @@ https://web.mit.edu/dimitrib/www/RL_1-SHORT-INTERNET-POSTED.pdf
 4. [_Lecture 4d: Path-constrained trajectory planning_](https://web.microsoftstream.com/video/1e6dcf03-b742-4b55-82b1-4b5428e0c30a) [15:10]
 
 ### Reading material
-* Sections 5.1-5.5 and 14.1-14.4 in LaValle, S. M.: [_Planning Algorithms_](http://planning.cs.uiuc.edu). Cambridge University Press, 2006.
+* Sections 5.1-5.5 and 14.1-14.4 in LaValle, S. M: [_Planning Algorithms_](http://planning.cs.uiuc.edu). Cambridge University Press, 2006.
 * Sections 3.3.3 and 5 in Karaman, S., & E. Frazzoli: ”[_Sampling-based algorithms for optimal motion planning_](https://login.e.bibl.liu.se/login?url=https://doi.org/10.1177%2F0278364911406761)". The International Journal of Robotics Research, 30(7), 846-894, 2011.
-* Section 2.3 in Bergman, K.: ”[_On Motion Planning Using Numerical Optimal Control_](https://doi.org/10.3384/lic.diva-157077)”, Licentiate Thesis, Div. Automatic Control, Linköping Univ., 2019.
+* Section 4.5 in Bergman, K: ”[_Exploiting Direct Optimal Control for Motion Planning in Unstructured Environments_](https://doi.org/10.3384/diss.diva-174175)”, Ph.D Thesis No. 2133, Div. Automatic Control, Linköping Univ., 2021.
 
 Additional material for further reading:
 * Likhachev, M., & D. Ferguson: ”[_Planning long dynamically feasible maneuvers for autonomous vehicles_](https://login.e.bibl.liu.se/login?url=https://doi.org/10.1177%2F0278364909340445)". The International Journal of Robotics Research, 28(8), 933-945, 2009.
 * Dahl, O.: ”[_Path Constrained Robot Control_](https://lucris.lub.lu.se/ws/files/4364453/8566341.pdf)”, Ph.D. Thesis, Dept. Automatic Control, Lund Univ., 1992.
-* Ljungqvist, O.: ”[_Motion planning and feedback control techniques with applications to long tractor-trailer vehicles_](http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-165246)”, Ph.D. Thesis, Div. Automatic Control, Linköping Univ., 2020. 
+* Ljungqvist, O.: ”[_Motion planning and feedback control techniques with applications to long tractor-trailer vehicles_](https://doi.org/10.3384/diss.diva-165246)”, Ph.D. Thesis, Div. Automatic Control, Linköping Univ., 2020.
+* Dubins, L. E., "[_On curves of minimal length with a constraint on average curvature, and with prescribed initial and terminal positions and tangents_](https://doi.org/10.2307/2372560)", American Journal of Mathematics, 79(3), 497-516, 1957. 
 
 ## Lecture 5 (2020): Dynamic optimization as a tool for motion planning and control [[slides](Lecture_notes/lecture_05_dynamic_optimization_motion_planning_control.pdf)]
 
