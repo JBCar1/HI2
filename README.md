@@ -76,7 +76,7 @@ Additional material for further reading:
 * Ljungqvist, O.: ”[_Motion planning and feedback control techniques with applications to long tractor-trailer vehicles_](https://doi.org/10.3384/diss.diva-165246)”, Ph.D. Thesis, Div. Automatic Control, Linköping Univ., 2020.
 * Dubins, L. E., "[_On curves of minimal length with a constraint on average curvature, and with prescribed initial and terminal positions and tangents_](https://doi.org/10.2307/2372560)", American Journal of Mathematics, 79(3), 497-516, 1957. 
 
-## Lecture 5 (2020): Dynamic optimization as a tool for motion planning and control [[slides](Lecture_notes/lecture_05_dynamic_optimization_motion_planning_control.pdf)]
+## Lecture 5: Dynamic optimization as a tool for motion planning and control [[slides](Lecture_notes/lecture_05_dynamic_optimization_motion_planning_control.pdf)]
 
 ### Video
 
@@ -92,10 +92,10 @@ For a more mathematical treatment of the topic of numerical optimal control and 
 * Chapter 8 in Rawlings, J. B., D. Q. Mayne, & M. Diehl: [_Model Predictive Control: Theory, Computation, and Design_](https://sites.engineering.ucsb.edu/~jbraw/mpc/). Nob Hill Publishing, 2017
 * Diehl, M.: [_Numerical Optimal Control_](https://www.fs.isy.liu.se/Edu/Courses/NumericalOptimalControl/Diehl_NumOptiCon.pdf), Optec, K.U. Leuven, Belgium, 2011.
 
-A guest presentation on optimization-based methods for motion planning will also be given by Kristoffer Bergman, Div. Automatic Control, Linköping University, during this lecture.
-
 Additional material for further reading:
-* Bergman, K.: ”[_On Motion Planning Using Numerical Optimal Control_](https://doi.org/10.3384/lic.diva-157077)”, Licentiate Thesis, Div. Automatic Control, Linköping Univ., 2019.
+* Bergman, K: ”[_Exploiting Direct Optimal Control for Motion Planning in Unstructured Environments_](https://doi.org/10.3384/diss.diva-174175)”, Ph.D Thesis No. 2133, Div. Automatic Control, Linköping Univ., 2021.
+* Berntorp, K., Olofsson, B., Lundahl, K., & Nielsen, L., "[_Models and methodology for optimal trajectory generation in safety-critical road-vehicle manoeuvres_](https://doi.org/10.1080/00423114.2014.939094)". Vehicle System Dynamics, 52(10), 1304-1332, 2014.
+* Fors, V., "[_Autonomous Vehicle Maneuvering at the Limit of Friction_](https://doi.org/10.3384/diss.diva-170606)", Ph.D. Thesis No. 2102, Division of Vehicular Systems, Linköping University, 2020.
 * Nocedal, J., & S. Wright: [_Numerical Optimization_](https://link.springer.com/book/10.1007%2F978-0-387-40065-5). Springer, 2006.
 
 ## Lecture 6 (2020): Control of autonomous vehicles I: Ground vehicles [[slides](Lecture_notes/lecture_06_ground_vehicle_motion_control.pdf)]
