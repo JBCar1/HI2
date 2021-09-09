@@ -98,7 +98,7 @@ Additional material for further reading:
 * Fors, V., "[_Autonomous Vehicle Maneuvering at the Limit of Friction_](https://doi.org/10.3384/diss.diva-170606)", Ph.D. Thesis No. 2102, Division of Vehicular Systems, Linköping University, 2020.
 * Nocedal, J., & S. Wright: [_Numerical Optimization_](https://link.springer.com/book/10.1007%2F978-0-387-40065-5). Springer, 2006.
 
-## Lecture 6 (2020): Control of autonomous vehicles I: Ground vehicles [[slides](Lecture_notes/lecture_06_ground_vehicle_motion_control.pdf)]
+## Lecture 6: Control of autonomous vehicles I: Ground vehicles [[slides](Lecture_notes/lecture_06_ground_vehicle_motion_control.pdf)]
 
 ### Video
 
