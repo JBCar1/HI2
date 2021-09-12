@@ -142,7 +142,7 @@ Additional material for further reading:
 * Diehl, M., Bock, H. G., & Schlöder, J. P: ”[_A real-time iteration scheme for nonlinear optimization in optimal feedback control_](https://doi.org/10.1137/S0363012902400713)”. SIAM Journal on Control and Optimization, 43(5), 1714-1736, 2005.
 
 
-## Lecture 8 (2020): Collaborative control [[slides](Lecture_notes/lecture_08_collaborative_control.pdf)]
+## Lecture 8: Collaborative control [[slides](Lecture_notes/lecture_08_collaborative_control.pdf)]
 
 ### Video
 1. [_Introduction to Collaborative Control_](https://web.microsoftstream.com/video/4c1bf4f3-6908-4de8-92b1-9a9d140a618e) [10:45]
