@@ -125,7 +125,7 @@ For the interested reader, suggested material to dig deeper is
 * Werling, M., Gröll, L., and Bretthauer, G.. "[_Invariant trajectory tracking with a full-size autonomous road vehicle_](https://doi.org/10.1109/TRO.2010.2052325)". IEEE Transactions on Robotics 26.4 (2010): 758-765. 
     An advanced text, nonlinear trajectory stabilizing controllers.
 
-## Lecture 7 (2020): Model predictive control for autonomous vehicles [[slides](Lecture_notes/lecture_07_model_predictive_control_for_autonomous_vehicles.pdf)]
+## Lecture 7: Model predictive control for autonomous vehicles [[slides](Lecture_notes/lecture_07_model_predictive_control_for_autonomous_vehicles.pdf)]
 ### Video
 
 1. [_Lecture 7a: Introduction to model predictive control for autonomous vehicles_](https://web.microsoftstream.com/video/de248705-1dc8-46bf-8b61-27ddc781d504) [12:26]
@@ -133,13 +133,22 @@ For the interested reader, suggested material to dig deeper is
 3. [_Lecture 7c: Autonomous trajectory tracking and path following using MPC_](https://web.microsoftstream.com/video/dfbd498f-8384-4b19-b11d-b38f970b9b16) [26:24]
 4. [_Lecture 7d: Summary, outlook, and tools for MPC in autonomous vehicles_](https://web.microsoftstream.com/video/fb92a8d0-9503-44b6-b78d-70d75a345f2e) [09:48]
 
-### Reading material (2020)
+### Reading material
 * Chapter 1 in Rawlings, J. B., D. Q. Mayne, & M. Diehl: [_Model Predictive Control: Theory, Computation, and Design_](https://sites.engineering.ucsb.edu/~jbraw/mpc/). Nob Hill Publishing, 2017
 * Section V-C in Paden, B., et al.: "[_A survey of motion planning and control techniques for self-driving urban vehicles_](https://doi.org/10.1109/TIV.2016.2578706)". IEEE Transactions on Intelligent Vehicles, 1(1), 33-55, 2016.
 
 Additional material for further reading:
 * Berntorp, K., Quirynen, R., Uno, T., & Di Cairano, S: "[_Trajectory tracking for autonomous vehicles on varying road surfaces by friction-adaptive nonlinear model predictive control_](https://doi.org/10.1080/00423114.2019.1697456)". Vehicle System Dynamics, 58(5), 705-725, 2020.
 * Diehl, M., Bock, H. G., & Schlöder, J. P: ”[_A real-time iteration scheme for nonlinear optimization in optimal feedback control_](https://doi.org/10.1137/S0363012902400713)”. SIAM Journal on Control and Optimization, 43(5), 1714-1736, 2005.
+* Faulwasser, T., & Findeisen, R: ”[_Nonlinear model predictive control for constrained output path following_](https://doi.org/10.1109/TAC.2015.2466911)”. IEEE Transactions on Automatic Control, 61(4), 1026-1039, 2015.
+* Gros, S., Zanon, M., Quirynen, R., Bemporad, A., & Diehl, M: ”From linear to nonlinear MPC: Bridging the gap via the real-time iteration”. International Journal of Control, 93(1), 62-80, 2020.
+* Hellström, E., Ivarsson, M., Åslund, J., & Nielsen, L: ”[_Look-ahead control for heavy trucks to minimize trip time and fuel consumption_](https://doi.org/10.1016/j.conengprac.2008.07.005)”. Control Engineering Practice, 17(2), 245-254, 2009.
+
+During this lecture, a research guest presentation by Dr. Lars Svensson, KTH Royal Institute of Technology, Stockholm, Sweden with the title "Motion Planning and Control of Automated Vehicles in Critical Situations" will be given. Related material for further reading:
+* Svensson, L., Bujarbaruah, M., Kapania, N. R., & Törngren, M: "[_Adaptive trajectory planning and optimization at limits of handling_](https://doi.org/10.1109/IROS40897.2019.8967679)". In IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2019.
+* Svensson, L., Bujarbaruah, M., Karsolia, A., Berger, C., & Törngren, M: "[_Traction adaptive motion planning at the limits of handling_](https://arxiv.org/abs/2009.04180)". arXiv preprint arXiv:2009.04180, 2020.
+* Svensson, L: "[_Motion Planning and Control of Automated Vehicles in Critical Situations_](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1554346), Ph.D. Thesis TRITA-ITM-AVL 2021:23, KTH Royal Institute of Technology, Stockholm, Sweden, 2021.
+
 
 
 ## Lecture 8: Collaborative control [[slides](Lecture_notes/lecture_08_collaborative_control.pdf)]
