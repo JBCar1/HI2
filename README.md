@@ -4,11 +4,10 @@ This repository includes lecture notes, material for hand-in exercises, links to
 
 Note: (2020) by the lecture indicates that the material is from the 2020 edition and may be updated during the course. Removal of (2020) indicates that the material is for the 2021 edition.
 
-## Introduction to computer tools in Python [[slides](Lecture_notes/computer_tools_introduction.pdf)]
-### Video
+## Additional lectures and tutorials
 
-1. [_Introduction to (some) computer tools for Python in TSFS12_](https://web.microsoftstream.com/video/a32e5976-f7e3-4236-abdb-047f250e19e8) [49:44]
-
+1. [_Introduction to (some) computer tools for Python in TSFS12_](https://web.microsoftstream.com/video/a32e5976-f7e3-4236-abdb-047f250e19e8) [49:44] ([slides](Lecture_notes/computer_tools_introduction.pdf))
+2. [_Introduction to the CARLA simulator_](https://web.microsoftstream.com/video/9624208e-c060-4d79-8191-184498a1f9ab) [40:44]
 
 ## Lecture 1: Introduction [[slides](Lecture_notes/lecture_01_introduction.pdf)]
 
