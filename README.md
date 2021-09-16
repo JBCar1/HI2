@@ -141,7 +141,7 @@ Additional material for further reading:
 * Diehl, M., Bock, H. G., & Schlöder, J. P: ”[_A real-time iteration scheme for nonlinear optimization in optimal feedback control_](https://doi.org/10.1137/S0363012902400713)”. SIAM Journal on Control and Optimization, 43(5), 1714-1736, 2005.
 * Faulwasser, T., & Findeisen, R: ”[_Nonlinear model predictive control for constrained output path following_](https://doi.org/10.1109/TAC.2015.2466911)”. IEEE Transactions on Automatic Control, 61(4), 1026-1039, 2015.
 * Gros, S., Zanon, M., Quirynen, R., Bemporad, A., & Diehl, M: ”From linear to nonlinear MPC: Bridging the gap via the real-time iteration”. International Journal of Control, 93(1), 62-80, 2020.
-* Hellström, E., Ivarsson, M., Åslund, J., & Nielsen, L: ”[_Look-ahead control for heavy trucks to minimize trip time and fuel consumption_](https://doi.org/10.1016/j.conengprac.2008.07.005)”. Control Engineering Practice, 17(2), 245-254, 2009.
+* Hellström, Åslund, J., & Nielsen, L: ”[_Design of an efficient algorithm for fuel-optimal look-ahead control_](https://doi.org/10.1016/j.conengprac.2009.12.008)”. Control Engineering Practice, Vol. 18, nr 11, s. 1318-1327.
 
 During this lecture, a research guest presentation by Dr. Lars Svensson, KTH Royal Institute of Technology, Stockholm, Sweden with the title "Motion Planning and Control of Automated Vehicles in Critical Situations" will be given. Related material for further reading:
 * Svensson, L., Bujarbaruah, M., Kapania, N. R., & Törngren, M: "[_Adaptive trajectory planning and optimization at limits of handling_](https://doi.org/10.1109/IROS40897.2019.8967679)". In IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2019.
