@@ -115,7 +115,7 @@ class MotionPrimitives:
         Compute a path p and direction information for a control trajectory (plan["control"]). 
         
         arguments:
-            x0 -- Initial state (index)
+            x0 -- Initial state
             control -- Control actions (typically plan["control"])
 
         output:
@@ -135,7 +135,8 @@ class MotionPrimitives:
                 segment_range = range(sp[k, 1], sp[k, 2])
                 plt.plot(p[0, segment_range], p[1, segment_range], "b" if sp[k, 0] == 1 else "r")
         """
-        p = np.array([x0])
+        p0 = x0
+        p = np.array([]).reshape((0, 3))
 
         u_current = control[0][2]
         switch_points = []
@@ -144,11 +145,11 @@ class MotionPrimitives:
         for ui in control:
             mpi = self.mprims[ui[0], ui[1]]
             if ui[2] == 1:  # Forward driving
-                traj = np.column_stack((p[-1][0:2] + np.column_stack((mpi['x'], mpi['y'])), mpi['th']))
+                traj = np.column_stack((p0[0:2] + np.column_stack((mpi['x'], mpi['y'])), mpi['th']))
             else:  # Reverse driving
-                traj = np.column_stack((p[-1][0:2] + np.column_stack((np.flip(mpi["x"]) - mpi["x"][-1], 
+                traj = np.column_stack((p0[0:2] + np.column_stack((np.flip(mpi["x"]) - mpi["x"][-1], 
                                                                       np.flip(mpi["y"]) - mpi["y"][-1])), 
-                                                                      mpi["th"]))
+                                                                      np.flip(mpi["th"])))
 
             if ui[2] != u_current:
                 curr_segment.append(p.shape[0])
@@ -156,6 +157,7 @@ class MotionPrimitives:
                 u_current = ui[2]
                 curr_segment = [u_current, p.shape[0]]
             p = np.vstack((p, traj))
+            p0 = p[-1]
  
         curr_segment.append(p.shape[0])
         switch_points.append(curr_segment)

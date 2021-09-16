@@ -152,7 +152,10 @@ def next_state(x, world, mp, rev=True, tol=1e-5):
     
     Output arguments:
      xi - List containing the indices of N possible next states from current 
-           state x, considering the obstacles and size of the world model
+          state x, considering the obstacles and size of the world model
+           
+          To get the state corresponding to the first element in xi, 
+          world.st_sp[:, xi[0]]
      u - List of indices indicating which motion primitive used for reaching 
          the states in xi. Each element in the list contains the two indices of the 
          motion primitives used for reaching each state and the driving direction 
