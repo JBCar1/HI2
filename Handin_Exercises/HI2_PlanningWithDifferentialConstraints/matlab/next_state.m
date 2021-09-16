@@ -9,11 +9,18 @@ function [xi, u, d] = next_state(x, world, mp, rev, tol)
     % tol - tolerance for comparison of closeness of states
     
     % Output arguments:
-    % xi - 3 x N matrix containing the possible next states from current 
-    %       state x, considering the obstacles and size of the world model
+    % xi - 1 x N matrix containing the indices of possible next states 
+    %      from current state x, considering the obstacles and size of 
+    %      the world model. To get the state corresponding to the 
+    %      first element in xi, 
+    %         world.st_sp(:, xi(1))
     % u - N x 3 matrix with the two indices of the motion primitives used 
     %     for reaching each state (row in u corresponds to column in xi)
     %     and the driving direction (1 forward, -1 reverse)
+    %
+    %     If u_i = u(1,:) (first row), the corresponding motion primitive is
+    %      mp.mprims{u_i(1)}{u_i(2)}
+    %
     % d - 1 x N vector with the cost associated with each possible 
     %     transition in xi 
     

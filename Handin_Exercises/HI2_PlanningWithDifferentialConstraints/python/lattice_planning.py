@@ -151,12 +151,16 @@ def next_state(x, world, mp, rev=True, tol=1e-5):
      tol - tolerance for comparison of closeness of states
     
     Output arguments:
-     xi - 3 x N matrix containing the possible next states from current 
+     xi - List containing the indices of N possible next states from current 
            state x, considering the obstacles and size of the world model
-     u - N x 3 matrix with the two indices of the motion primitives used 
-         for reaching each state (row in u corresponds to column in xi)
-         and the driving direction (1 forward, -1 reverse)
-     d - 1 x N vector with the cost associated with each possible 
+     u - List of indices indicating which motion primitive used for reaching 
+         the states in xi. Each element in the list contains the two indices of the 
+         motion primitives used for reaching each state and the driving direction 
+         (1 forward, -1 reverse).
+
+         If u_i = u[0] (first element), the corresponding motion primitive is
+         mp.mprims[u_i[0], u_i[1]]
+     d - List with the cost associated with each possible 
          transition in xi"""
     
     state_i = world.st_sp[:, x]
